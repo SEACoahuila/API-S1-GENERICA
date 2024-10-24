@@ -1,0 +1,32 @@
+{
+  "name": "s1-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:RazielSystems/s1-api.git",
+  "author": "Benito Perdomo <benito.perdomo.v@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "debug": "DEBUG=app:* ts-node-dev src/index.ts",
+    "start": "ts-node-dev src/index.ts"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/debug": "^4.1.8",
+    "@types/express": "^4.17.17",
+    "@types/jsonwebtoken": "^9.0.2",
+    "@types/mongoose-paginate-v2": "^1.6.5",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "debug": "^4.3.4",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.5.1",
+    "mongoose-paginate-v2": "^1.7.4",
+    "yup": "^1.2.0"
+  }
+}
